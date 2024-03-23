@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ko-KR"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="ko-KR"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ko-KR"><![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10" lang="ko-KR"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="ko-KR">
+<!--<![endif]-->
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://dbos.hanyang.ac.kr/wordpress/xmlrpc.php">
+	
+	<!-- Fav and touch icons -->
+		   
+	   
+	   
+	
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/css/fontello-ie7.css">
+	<![endif]-->
+	
+		
+	
+	<title>DBOS LAB &#8211; Database Operating Systems Laboratory</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="DBOS LAB &raquo; 피드" href="http://dbos.hanyang.ac.kr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DBOS LAB &raquo; 댓글 피드" href="http://dbos.hanyang.ac.kr/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/dbos.hanyang.ac.kr\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.25"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.3.1' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='bootstrap-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/css/bootstrap.min.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='kleo-app-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/css/app.min.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/plugins/magnific-popup/magnific.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='kleo-fonts-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/css/fontello.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='kleo-google-fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Sans%3A400&#038;ver=4.9.25' type='text/css' media='all' />
+<link rel='stylesheet' id='kleo-colors-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/custom_styles/dynamic.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='kleo-plugins-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/css/plugins.min.css?ver=4.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='kleo-style-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo-child/style.css?ver=4.0.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.6.3.1'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.6.3.1'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/init.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/modernizr.custom.46504.js?ver=4.0.6'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"ko","strings":{"mejs.install-flash":"\ud50c\ub798\uc2dc \ud50c\ub808\uc774\uc5b4\uac00 \ud65c\uc131\ud654 \ub418\uac70\ub098 \uc124\uce58\ub418\uc9c0\uc9c0 \uc54a\uc740 \ube0c\ub77c\uc6b0\uc800\ub97c \uc0ac\uc6a9\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \ud50c\ub798\uc2dc \ud50c\ub808\uc774\uc5b4 \ud50c\ub7ec\uadf8\uc778\uc744 \ud65c\uc131\ud654 \ud558\uac70\ub098 \ucd5c\uadfc \ubc84\uc804\uc744 \ub2e4\uc74c\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc \ud558\uc138\uc694: https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"\uc804\uccb4\ud654\uba74 \ub098\uac00\uae30","mejs.fullscreen-on":"\uc804\uccb4\ud654\uba74","mejs.download-video":"\ube44\ub514\uc624 \ub2e4\uc6b4\ub85c\ub4dc","mejs.fullscreen":"\uc804\uccb4\ud654\uba74","mejs.time-jump-forward":["1\ucd08 \uc55e\uc73c\ub85c \uac74\ub108\ub6f0\uae30","%1\ucd08 \uc55e\uc73c\ub85c \uac00\uae30"],"mejs.loop":"\ub8e8\ud504 \ud1a0\uae00","mejs.play":"\uc2e4\ud589","mejs.pause":"\uc911\uc9c0","mejs.close":"\ub2eb\uae30","mejs.time-slider":"\ud0c0\uc784 \uc2ac\ub77c\uc774\ub354","mejs.time-help-text":"1\ucd08\ub97c \uc9c4\ud589\ud558\ub824\uba74 \uc88c\/\uc6b0 \ubc29\ud5a5\ud0a4\ub97c \uc0ac\uc6a9\ud558\uace0 10\ucd08\ub97c \uc9c4\ud589\ud558\ub824\uba74 \uc0c1\/\ud558 \ubc29\ud5a5\ud0a4\ub97c \uc0ac\uc6a9\ud558\uc138\uc694.","mejs.time-skip-back":["1\ucd08 \ub4a4\ub85c \uac74\ub108\ub6f0\uae30","%1\ucd08 \ub4a4\ub85c \uac74\ub108\ub6f0\uae30"],"mejs.captions-subtitles":"\ucea1\uc158\/\ubd80\uc81c\ubaa9","mejs.captions-chapters":"\ucc55\ud130","mejs.none":"\uc5c6\uc74c","mejs.mute-toggle":"\ubb34\uc74c \ud1a0\uae00","mejs.volume-help-text":"\ubcfc\ub968\uc744 \ub192\uc774\uac70\ub098 \uc904\uc774\ub824\uba74 \uc0c1\/\ud558 \ubc29\ud5a5\ud0a4\ub97c \uc0ac\uc6a9\ud558\uc138\uc694.","mejs.unmute":"\ubb34\uc74c\ud574\uc81c","mejs.mute":"\uc870\uc6a9\ud788","mejs.volume-slider":"\ubcfc\ub968 \uc2ac\ub77c\uc774\ub354","mejs.video-player":"\ube44\ub514\uc624 \ud50c\ub808\uc774\uc5b4","mejs.audio-player":"\uc624\ub514\uc624 \ud50c\ub808\uc774\uc5b4","mejs.ad-skip":"\uad11\uace0 \uc0dd\ub7b5","mejs.ad-skip-info":["1\ucd08 \uc55e\uc73c\ub85c \uac00\uae30","%1\ucd08 \uc55e\uc73c\ub85c \uac00\uae30"],"mejs.source-chooser":"\uc18c\uc2a4 \uc120\ud0dd\uae30","mejs.stop":"\uc815\uc9c0","mejs.speed-rate":"\uc18d\ub3c4\uc728","mejs.live-broadcast":"\uc2e4\uc2dc\uac04 \ubc29\uc1a1","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=4.9.25'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wordpress\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<link rel='https://api.w.org/' href='http://dbos.hanyang.ac.kr/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dbos.hanyang.ac.kr/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dbos.hanyang.ac.kr/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.25" />
+<link rel="canonical" href="http://dbos.hanyang.ac.kr/" />
+<link rel='shortlink' href='http://dbos.hanyang.ac.kr/' />
+<link rel="alternate" type="application/json+oembed" href="http://dbos.hanyang.ac.kr/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdbos.hanyang.ac.kr%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://dbos.hanyang.ac.kr/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdbos.hanyang.ac.kr%2F&#038;format=xml" />
+	<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.6.3.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+
+<style>
+
+</style>
+<script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+
+<body class="home page-template page-template-page-templates page-template-full-width page-template-page-templatesfull-width-php page page-id-5 kleo-navbar-fixed navbar-resize navbar-transparent on-dark-bg navbar-full-width wpb-js-composer js-comp-ver-5.4.7 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
+	
+	
+	<!-- PAGE LAYOUT
+	================================================ -->
+	<!--Attributes-->
+	<div class="kleo-page">
+
+	<!-- HEADER SECTION
+	================================================ -->
+	
+<div id="header" class="header-color">
+
+	<div class="navbar" role="navigation">
+
+		
+				<div class="kleo-main-header header-normal">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<div class="kleo-mobile-switch">
+
+												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+					</div>
+
+					<div class="kleo-mobile-icons">
+
+						
+					</div>
+
+					<strong class="logo">
+						<a href="http://dbos.hanyang.ac.kr">
+
+							
+								DBOS LAB
+							
+						</a>
+					</strong>
+				</div>
+
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-collapse"><ul id="menu-%eb%a9%94%eb%89%b4-1" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a title="ABOUT" href="http://dbos.hanyang.ac.kr/about/">ABOUT</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a title="MEMBERS" href="http://dbos.hanyang.ac.kr/members/">MEMBERS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a title="PUBLICATIONS" href="http://dbos.hanyang.ac.kr/publications/">PUBLICATIONS</a></li>
+</ul></div>			</div><!--end container-->
+		</div>
+	</div>
+
+</div><!--end header-->
+
+
+
+	<!-- MAIN SECTION
+	================================================ -->
+	<div id="main">
+
+	
+
+
+
+<section class="container-wrap main-color">
+	<div id="main-container" class="container-full">
+		
+			<div class="template-page col-sm-12 tpl-no">
+				<div class="wrap-content">
+					
+				
+
+
+<!-- Begin Article -->
+<article id="post-5" class="clearfix post-5 page type-page status-publish">
+
+    
+    <div class="article-content">
+        <section class="container-wrap  main-color custom-color "  style="color: #ffffff;background-image: url(http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2016/11/home_background.png);background-color: #0a0a0a;background-position: center top;background-repeat: no-repeat;background-attachment: scroll;background-size: cover;padding-top:40px;padding-bottom:40px" ><div class="section-container container"><div class="vc_row vc_row-fluid row vc_row-o-full-height vc_row-o-columns-top vc_row-flex vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div  class="kleo-gap" style="height:60px;line-height:60px;"></div><h1 style="font-size: 3em;color: #000000;line-height: 1;text-align: left;font-family:Noto Sans;font-weight:700;font-style:normal" class="vc_custom_heading" >Database Operating Systems Laboratory</h1><div  class="kleo-gap" style="height:20px;line-height:20px;"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_5 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_white" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div><h2 style="font-size: 36px;color: #ffffff;line-height: 1;text-align: left;font-family:Noto Sans;font-weight:700;font-style:normal" class="vc_custom_heading" >Professor</h2><h2 style="font-size: 20px;color: #ffffff;line-height: 1;text-align: left;font-family:Noto Sans;font-weight:700;font-style:normal" class="vc_custom_heading" >정형수<br />
+Hyungsoo Jung</h2><div  class="kleo-gap" style="height:75px;line-height:75px;"></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_5 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_white" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div>
+	<div class="kleo_text_column wpb_content_element " style=" font-size:14px;">
+		<div class="wpb_wrapper">
+			<p><a href="https://vldb.org/2023/"><img class="alignnone wp-image-589" src="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/DBOSLab_new_frontpage_fit-300x138.jpg" alt="" width="1020" height="469" srcset="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/DBOSLab_new_frontpage_fit-300x138.jpg 300w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/DBOSLab_new_frontpage_fit-768x353.jpg 768w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/DBOSLab_new_frontpage_fit-1024x470.jpg 1024w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/DBOSLab_new_frontpage_fit-672x309.jpg 672w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/DBOSLab_new_frontpage_fit-1038x477.jpg 1038w" sizes="(max-width: 1020px) 100vw, 1020px" /></a></p>
+<p><a href="http://www.vldb.org/pvldb/vol11/p135-jung.pdf" target="_blank" rel="noopener"><img class="alignnone wp-image-595" src="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/vldb2018_dbos-300x58.png" alt="" width="1014" height="196" srcset="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/vldb2018_dbos-300x58.png 300w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/vldb2018_dbos-1024x199.png 1024w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/vldb2018_dbos-672x131.png 672w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/vldb2018_dbos-1038x202.png 1038w" sizes="(max-width: 1014px) 100vw, 1014px" /></a></p>
+<p><a href="https://dl.acm.org/doi/10.1145/3299869.3300071" target="_blank" rel="noopener"><img class="alignnone wp-image-592" src="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/dbos_sigmod2019-300x75.png" alt="" width="1016" height="254" srcset="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/dbos_sigmod2019-300x75.png 300w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/dbos_sigmod2019-768x191.png 768w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/dbos_sigmod2019-1024x255.png 1024w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/dbos_sigmod2019-672x167.png 672w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/09/dbos_sigmod2019-1038x258.png 1038w" sizes="(max-width: 1016px) 100vw, 1016px" /></a></p>
+<p><a href="https://dl.acm.org/doi/10.1145/3318464.3389714" target="_blank" rel="noopener"><img class="alignnone wp-image-405" src="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2020/07/ACM-SIGMOD-2020-1-300x129.jpg" alt="" width="1021" height="439" srcset="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2020/07/ACM-SIGMOD-2020-1-300x129.jpg 300w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2020/07/ACM-SIGMOD-2020-1-768x330.jpg 768w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2020/07/ACM-SIGMOD-2020-1-1024x440.jpg 1024w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2020/07/ACM-SIGMOD-2020-1-672x289.jpg 672w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2020/07/ACM-SIGMOD-2020-1-1038x446.jpg 1038w" sizes="(max-width: 1021px) 100vw, 1021px" /></a></p>
+<p><a href="https://dl.acm.org/doi/abs/10.1145/3448016.3452783" target="_blank" rel="noopener"><img class="alignnone wp-image-445" src="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2021/06/vWeaver_Snap-300x93.jpg" alt="" width="1010" height="313" srcset="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2021/06/vWeaver_Snap-300x93.jpg 300w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2021/06/vWeaver_Snap-768x238.jpg 768w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2021/06/vWeaver_Snap-1024x318.jpg 1024w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2021/06/vWeaver_Snap-672x209.jpg 672w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2021/06/vWeaver_Snap-1038x322.jpg 1038w" sizes="(max-width: 1010px) 100vw, 1010px" /></a></p>
+<p><a href="https://dl.acm.org/doi/10.1145/3514221.3526135" target="_blank" rel="noopener"><img class="alignnone wp-image-527" src="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2022/06/sigmod2022-300x71.png" alt="" width="1027" height="243" srcset="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2022/06/sigmod2022-300x71.png 300w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2022/06/sigmod2022-768x182.png 768w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2022/06/sigmod2022-1024x243.png 1024w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2022/06/sigmod2022-672x160.png 672w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2022/06/sigmod2022-1038x247.png 1038w" sizes="(max-width: 1027px) 100vw, 1027px" /></a></p>
+<p><a href="https://www.vldb.org/pvldb/vol16/p1480-jung.pdf" target="_blank" rel="noopener"><img class="alignnone wp-image-585" src="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/08/VLDB23_Cover-300x79.png" alt="" width="1010" height="266" srcset="http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/08/VLDB23_Cover-300x79.png 300w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/08/VLDB23_Cover-768x203.png 768w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/08/VLDB23_Cover-1024x271.png 1024w, http://dbos.hanyang.ac.kr/wordpress/wp-content/uploads/2023/08/VLDB23_Cover-672x178.png 672w" sizes="(max-width: 1010px) 100vw, 1010px" /></a></p>
+<p>About Database Operating Systems (DBOS) Lab.</p>
+<ul>
+<li>The primary research focus of DBOS Lab. is to design and build database operating systems that would survive upcoming computing paradigms (e.g., serverless computing in cloud computing) and hardware technologies (e.g., non-volatile memory and massive cores).</li>
+</ul>
+<p>Research topics include:</p>
+<ul>
+<li>Database systems (e.g., MySQL, PostgreSQL, NoSQL engines)</li>
+<li>Operating systems (e.g., Linux)</li>
+<li>Serverless computing architecture in the cloud computing (e.g., AWS Lambda)</li>
+<li>Hybrid Transactional/Analytical Processing DBMS</li>
+</ul>
+<p>Database Operating Systems (DBOS) Laboratory looks for undergraduate interns, graduate students, and post-docs.</p>
+<p>Feel free to contact Prof. Hyungsoo Jung (hyungsoo.jung@hanyang.ac.kr) if you have the right skills and relevant interests in any research topic.</p>
+<p>*** For those who seek undergraduate intern positions, I strongly recommend you to take &#8220;Database Management Systems,&#8221; &#8220;Operating Systems,&#8221; and &#8220;Concurrent Programming&#8221; classes before contacting me. Taking &#8220;Concurrent Programming&#8221; is a big plus to undertake a research project in our lab since it would take enormous effort to design complex systems while learning the subject itself without having relevant knowledge.</p>
+
+		</div> 
+	</div> </div></div></div></div><div  class="kleo-gap" style="height:10px;line-height:10px;"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="section-container container"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_5 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_white" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div><h2 style="font-size: 36px;color: #ffffff;line-height: 1;text-align: left;font-family:Noto Sans;font-weight:700;font-style:normal" class="vc_custom_heading" >Members</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_5 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_white" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div><!-- vc_grid start -->
+<div class="vc_grid-container-wrapper vc_clearfix" >
+	<div class="vc_grid-container vc_clearfix wpb_content_element vc_media_grid" data-initial-loading-animation="fadeIn" data-vc-grid-settings="{&quot;page_id&quot;:5,&quot;style&quot;:&quot;all&quot;,&quot;action&quot;:&quot;vc_get_vc_grid_data&quot;,&quot;shortcode_id&quot;:&quot;1699493998078-a1b5d445-0c2d-8&quot;,&quot;tag&quot;:&quot;vc_media_grid&quot;}" data-vc-request="http://dbos.hanyang.ac.kr/wordpress/wp-admin/admin-ajax.php" data-vc-post-id="5" data-vc-public-nonce="efb9b4bfb3">
+	</div>
+</div><!-- vc_grid end -->
+</div></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div></div></section><!-- end section -->
+            </div><!--end article-content-->
+
+    </article>
+<!-- End  Article -->
+
+
+        
+        
+	        
+
+				
+				</div><!--end wrap-content-->
+			</div><!--end main-page-template-->
+								</div><!--end .container-->
+  
+</section>
+<!--END MAIN SECTION-->
+
+			
+		</div><!-- #main -->
+
+			
+			<a class="kleo-go-top" href="#"><i class="icon-up-open-big"></i></a>
+	<div class="kleo-quick-contact-wrapper"><a class="kleo-quick-contact-link" href="#"><i class="icon-mail-alt"></i></a><div id="kleo-quick-contact"><h4 class="kleo-qc-title">CONTACT US</h4><p>If you have any question, please send us an email and we'll get back to you, ASAP.</p><form class="kleo-contact-form" action="#" method="post" novalidate><input type="text" placeholder="이름" required id="contact_name" name="contact_name" class="form-control" value="" tabindex="276" /><input type="email" required placeholder="이메일" id="contact_email" name="contact_email" class="form-control" value="" tabindex="277"  /><textarea placeholder="메시지를 입력해주세요..." required id="contact_content" name="contact_content" class="form-control" tabindex="278"></textarea><input type="hidden" name="action" value="kleo_sendmail"><button tabindex="279" class="btn btn-default pull-right" type="submit">보내기</button><div class="kleo-contact-loading">보내는 중입니다.. <i class="icon-spinner icon-spin icon-large"></i></div><div class="kleo-contact-success"> </div></form><div class="bottom-arrow"></div></div></div><!--end kleo-quick-contact-wrapper-->
+	</div><!-- #page -->
+
+    
+	<!-- Analytics -->
+	
+	<!-- Modal Login form -->
+<div id="kleo-login-modal" class="kleo-form-modal main-color mfp-hide">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+
+      
+        <div class="kleo-pop-title-wrap main-color">
+            <h3 class="kleo-pop-title">로그인하세요.</h3>
+
+                    </div>
+
+        <form action="http://dbos.hanyang.ac.kr/wordpress/wp-login.php" id="login_form" name="login_form" method="post" class="kleo-form-signin">
+            <input type="hidden" id="security" name="security" value="1e33a1cf59" /><input type="hidden" name="_wp_http_referer" value="/" />            <input type="text" id="username" autofocus required name="log" class="form-control" value="" placeholder="사용자명">
+            <input type="password" id="password" required value="" name="pwd" class="form-control" placeholder="비밀번호">
+            <div id="kleo-login-result"></div>
+            <button class="btn btn-lg btn-default btn-block" type="submit">로그인</button>
+            <label class="checkbox pull-left">
+              <input id="rememberme" name="rememberme" type="checkbox" value="forever"> 기억하기            </label>
+            <a href="#kleo-lostpass-modal" class="kleo-show-lostpass kleo-other-action pull-right">암호를 분실하셨나요?</a>
+            <span class="clearfix"></span>
+
+            
+        </form>
+
+    </div>
+  </div>
+</div><!-- END Modal Login form -->
+
+
+
+<!-- Modal Lost Password form -->
+<div id="kleo-lostpass-modal" class="kleo-form-modal main-color mfp-hide">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div class="kleo-pop-title-wrap alternate-color">
+        <h3 class="kleo-pop-title">계정 내용을 잊으셨나요 ?</h3>
+      </div>
+
+      
+      <form id="forgot_form" name="forgot_form" action="" method="post" class="kleo-form-signin">
+        <input type="hidden" id="security" name="security" value="1e33a1cf59" /><input type="hidden" name="_wp_http_referer" value="/" />        <input type="text" id="forgot-email" autofocus required  name="user_login" class="form-control" placeholder="사용자명 또는 이메일">
+        <div id="kleo-lost-result"></div>
+        <button class="btn btn-lg btn-default btn-block" type="submit">비밀번호 재설정</button>
+        <a href="#kleo-login-modal" class="kleo-show-login kleo-other-action pull-right">I remember my details</a>
+        <span class="clearfix"></span>
+      </form>
+
+    </div>
+  </div>
+</div><!-- END Modal Lost Password form -->
+
+
+
+<link rel='stylesheet' id='vc_google_fonts_noto_sansregularitalic700700italic-css'  href='//fonts.googleapis.com/css?family=Noto+Sans%3Aregular%2Citalic%2C700%2C700italic&#038;subset=latin&#038;ver=4.9.25' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyphoto-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.min.css?ver=5.4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_pageable_owl-carousel-css-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/owl-carousel2-dist/assets/owl.min.css?ver=5.4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css-css'  href='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.4.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/bootstrap.min.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/plugins/magnific-popup/magnific.min.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/plugins/carouFredSel/jquery.carouFredSel-6.2.0-packed.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/plugins/carouFredSel/helper-plugins/jquery.touchSwipe.min.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.4.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var kleoFramework = {"ajaxurl":"http:\/\/dbos.hanyang.ac.kr\/wordpress\/wp-admin\/admin-ajax.php","themeUrl":"http:\/\/dbos.hanyang.ac.kr\/wordpress\/wp-content\/themes\/kleo","loginUrl":"http:\/\/dbos.hanyang.ac.kr\/wordpress\/wp-login.php","goTop":"1","ajaxSearch":"0","alreadyLiked":"You already like this","logo":"","retinaLogo":"","headerHeight":"88","loadingmessage":"<i class=\"icon icon-spin5 animate-spin\"><\/i> \ub85c\uadf8\uc778 \uc911.....","DisableMagnificGallery":"0","portfolioVideoHeight":"160"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/themes/kleo/assets/js/app.min.js?ver=4.0.6'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-includes/js/wp-embed.min.js?ver=4.9.25'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/owl-carousel2-dist/owl.carousel.min.js?ver=5.4.7'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/lib/bower/imagesloaded/imagesloaded.pkgd.min.js?ver=4.9.25'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://dbos.hanyang.ac.kr/wordpress/wp-content/plugins/js_composer/assets/js/dist/vc_grid.min.js?ver=5.4.7'></script>
+
+</body>
+</html>
